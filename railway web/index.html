@@ -1,0 +1,360 @@
+<html>
+<!-- Insert to your webpage before the </head> -->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <script src="sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
+ <head>
+ <title> PAK RAILWAY</title>
+   <style>
+   body
+   {
+   margin:0px;
+   padding:0px;
+   }
+   #main
+   {
+   height:100%;
+   background:white;
+   width:100%;
+   }
+   #header
+   {
+   height:165px;
+   width:100%;
+   position:relative;
+   }
+   .logo
+   {
+   position:absolute;
+   height:100px;
+   width:300px;
+   }
+   .logo img
+   {
+   margin-top:20px;
+   margin-left:20px;
+   }
+   .icon
+   {
+   position:absolute;
+   height:80px;
+   width:300px;
+   margin-left:1130px;
+   margin-top:-80px;
+   }
+   .icon img
+   {
+   margin-left:30px;
+   }
+   .nav
+	   {
+	   border:1px solid black;
+	   position:absolute;
+	     height:40px;
+		 width:100%;
+      margin-top:120px;
+		 }
+	   .nav ul
+	   {
+	   height:100px;
+	   list-style:none;
+	   line-height:100px;
+	   margin-right:10px;
+	   margin-top:-0px;
+	   }
+	   .nav ul li
+	   {
+	    float:left;
+			padding:0px 10px;
+			font-family:calibri;
+			height:40px;
+			padding-left:20px;
+			line-height:40px;
+			position:relative;
+			min-width:50px;
+			color:black;
+	   }
+	   .nav ul li a
+	   {
+	   text-decoration:none;
+			color:black;
+	   }
+
+	 .nav ul li a:hover
+	   {
+	   transition:all 2s;
+	   color:white;
+
+	   }
+	   #slider
+	   {
+	   margin-top:-17px;
+	   }
+	   .para p
+	   {
+	   font-size:40px;
+	   color:green;
+	   margin-left:500px;
+	   }
+     #para1 p
+	 {
+	 margin-left:500px;
+	 font-size:18px;
+	 }
+	 .block
+	 {
+	 height:700px;
+	 width:280px;
+	 background:white;
+	 margin-top:-60px;
+	 }
+	 .para2 p
+	 {
+	 font-size:22px;
+	 color:green;
+	 margin-top:-40px;
+	 margin-left:20px;
+	 }
+	 .block select
+	 {
+	 border:2px solid green;
+	 width:180px;
+	 height:50px;
+	 margin-left:50px;
+	 }
+	 .block input
+	 {
+	 border:2px solid green;
+	 width:180px;
+	 height:50px;
+	 margin-left:50px;
+	 }
+	 .block p 
+	 {
+	 color:green;
+	 margin-left:30px;
+	 
+	 }
+	 .grp h3
+	 {
+	 margin-left:30px;
+	 }
+	 .grp p
+	 {
+	 color:black;
+     }
+	 #image
+	 {
+	 border:1px solid black;
+	 background:white;
+	 height:200px;
+	 width:300px;
+	 margin-left:500px;
+	 margin-top:-600px;
+	 float:left;
+	 position:relative;
+	 }
+	 #image img
+	 {
+	 height:180px;
+	 width:280px;
+	 margin-left:10px;
+	 margin-top:10px;
+	 position:absolute;
+	 }
+	 .pre p
+	{
+	margin-left:500px;
+	margin-top:-350px;
+	}
+	h1
+	{
+	margin-left:500px;
+	color:green;
+	}
+	#city
+	{
+	height:200px;
+	width:600px;
+	float:left;
+	margin-left:500px;
+	margin-top:-220px;
+	}
+	#images
+	 {
+	 float:left;
+	 margin-top:30px;
+	 background:white;
+	 border:1px solid black;
+	 height:150px;
+	 width:150px;
+	 margin-left:20px;
+	 position:relative;
+	 
+	 }
+	 #images img
+	 {
+	 position:absolute;
+	 height:130px;
+	 width:130px;
+	 margin-left:10px;
+	 margin-top:10px;
+	 }
+	 .footer
+	 {
+	 height:100px;
+	 width:50%;
+	 }
+	 
+	
+   </style>
+ </head>
+ 
+ 
+   <body>
+    <div id="main">
+	 <div id="header">
+	   <div class="logo">
+	   <img src="logo_new.jpg"/>
+	   <div class="icon">
+	   <img src="index.jpg"/>
+	   <img src="twitter.png"/>
+	   <img src="sign.png"/>
+	   <img src="youtube.png"/>
+	   </div>
+	    </div>
+		<div class="nav">
+		   <ul>
+		       <li><a href="">HOME</a></li>
+			   <li><a href="">ABOUT US</a></li>
+			   <li><a href="">TRAIN TIMING</a></li>
+			   <li><a href="">GO-FOR-A-TICKET</a></li>
+			   <li><a href="">TENDER</a></li>
+			   <li><a href="">PUBLIC NOTICE</a></li>
+			   <li><a href="">GALLERY</a></li>
+			   <li><a href="">CONTACT</a></li>
+		   </ul>
+		</div>
+	 </div>
+	 <div id="slider">
+	 <!-- Insert to your webpage where you want to display the slider -->
+    <div id="amazingslider-1" style="display:block;position:relative;margin:15px auto 30px;">
+        <ul class="amazingslider-slides" style="display:none;">
+            <li><img src="images/2-a-1-Street-crimes-on-the-rise-in-Pindi-area.jpg" alt="2-a-1-Street-crimes-on-the-rise-in-Pindi-area" />            </li>
+            <li><img src="images/ima1.jpg" alt="ima1" />            </li>
+            <li><img src="images/ima2.jpg" alt="ima2" />            </li>
+            <li><img src="images/imag1.1.jpg" alt="imag1.1" />            </li>
+            <li><img src="images/imag2.2.jpg" alt="imag2.2" />            </li>
+            <li><img src="images/image3.3.jpg" alt="image3.3" />            </li>
+            <li><img src="images/images.jpg" alt="images" />            </li>
+            <li><img src="images/Untitled-1.jpg" alt="Untitled-1" />            </li>
+            <li><img src="images/Untitled-2.jpg" alt="Untitled-2" />            </li>
+        </ul>
+        <div class="amazingslider-engine" style="display:none;"><a href="http://www.amazingslider.com">jQuery Slider</a></div>
+    </div>
+    <!-- End of body section HTML codes -->
+	</div>
+	<div id="par">
+	<div class="para">
+	 <p>Welcome To Pakistan Railway</p>
+	 </div>
+	 <div class="para2">
+	  <p>BOOK E-TICKET HERE</p>
+	  </div>
+	</div>
+	<hr>
+	<div id="para1">
+	<p>Pakistan Railways from the life line of the country by catering to its need for large scale movement of freight<br> as well as pasenger traffic.It not only contributes to its ecnomic growth but also parmotes national integration.</p>
+	</div>
+	<div class="block">
+	    <select name="station">
+							<option>---From Station---</option>
+							
+							<option value="1st">Hydrabad</option>
+							<option value="2nd">Landi</option>
+							<option value="3rd">Nwabshah</option>
+							<option value="4th">Cantt</option>
+							<option value="5th">Rohri</option>
+							<option value="6th">Khanywal</option>
+							<option value="7th">Khan pur</option>
+							<option value="8th">Multan</option>
+							<option value="9th">Bhawal pur</option>
+							<option value="10th">Abdul hakeem</option>
+							
+						</select>
+						<br>
+						<br>
+						<select name="station">
+							<option>---To Station---</option>
+							
+							<option value="1st">Hydrabad</option>
+							<option value="2nd">Landi</option>
+							<option value="3rd">Nwabshah</option>
+							<option value="4th">Cantt</option>
+							<option value="5th">Rohri</option>
+							<option value="6th">Khanywal</option>
+							<option value="7th">Khan pur</option>
+							<option value="8th">Multan</option>
+							<option value="9th">Bhawal pur</option>
+							<option value="10th">Abdul hakeem</option>
+							
+						</select>
+						<br>
+						<br>
+						<input type="text" placeholder="Departure Date" />
+						<br>
+						<br>
+						<input type="button" value="BOOK NOW" style="background:green;color:white;width:100px;margin-left:80px;border-radius:8px;"/>
+                    <p>March 22,2016 </p>
+					<div class="grp">
+					<h3>Sample Headline</h3>
+					<p>I'm a great place for you to tell a story<br>and let your users know a little more<br>about you.</p>
+					</div>
+					
+					<p>April 12,2016 </p>
+					<div class="grp">
+					<h3>Another Headline</h3>
+					<p>I'm a great place for you to tell a story<br>and let your users know a little more<br>about you.</p>
+					</div>
+					
+					<p>May 15,2016 </p>
+					<div class="grp">
+					<h3>Final Headline</h3>
+					<p>I'm a great place for you to tell a story<br>and let your users know a little more<br>about you.</p>
+					</div>
+	</div>
+	
+	      <div id="image">
+		  <img src="1.jpg"/>
+		  </div>
+		  <div id="image">
+		  <img src="1.jpg"/>
+		  </div>
+		 
+		  <div class="pre">
+		  <p>Pakistan Railway endeavours to run the trains strictly in accordance to time table.The prograssive freight train<br>support organization operated by professional managment and comptent staff endeavours to provide reliable,<br>.competitive and economical service of recognized standards to its customers.</p>
+		  </div>
+		  <h1>Popular Destination</h1>
+		  <hr style="width:65%;margin-left:490px;">
+		  <div id="city">
+		  <div id="images">
+		   <img src="quaid.jpg"/>
+		  </div>
+		  <div id="images">
+		   <img src="lahore.jpg"/>
+		  </div>
+		  <div id="images">
+		   <img src="islamabad.jpg"/>
+		  </div>
+		  </div>
+		  
+		  <hr style="margin-top:230px;">
+		  <div class="footer">
+		   <p>Copyright 2016-Pakistan Railway</p>
+		  </div>
+	</div>
+	
+   </body>
+
+</html>
