@@ -1,0 +1,84 @@
+<html>
+	<head>
+	</head>
+	<style>
+	body
+	{
+	margin:0px;
+	padding:0px;
+	}
+	
+	#show
+	{
+	height:0px;
+	width:100%;
+	color:#fff;
+	z-index:0.5px;
+	text-align:center;
+	position:relative;
+	transition:all 1s;
+	font-size:30px;
+	background:rgba(44,66,44,0.6);
+	}
+	
+	#sub
+	{
+	heigh:0px;
+	transition:all 1s;
+	background:blue;
+	}
+	
+	</style>
+	
+		<body onscroll="myScroll()">
+		
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+			<div id="show">
+			<div id="sub">
+		
+			</div>
+			</div>
+			
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		<h1>heool</h1>
+		
+		<script>
+		function myScroll()
+		{
+			var ws=window.scrollY;
+			// document.getElementById('show').innerHTML=ws;
+			
+			if(ws>='160')
+			{
+			document.getElementById('show').style.height="200px";
+			document.getElementById('sub').style.height="200px";
+			}
+			else
+			{
+			document.getElementById('show').style.height="200px";		
+			document.getElementById('sub').style.height="200px";		
+			}
+			
+		}
+		</script>
+		</body>
+</html>

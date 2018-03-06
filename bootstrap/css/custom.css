@@ -1,0 +1,45 @@
+#nav a:hover
+{
+	color:#dbdbdb;
+	background:red;
+	transition:all 1s;
+}
+#box1
+{
+	background:red;
+	height:200px;
+	widtH:200px;
+	border:1px solid black;
+}
+.carousel-caption
+{
+	
+	background:black;
+	opacity:0.8;
+	width:450px;
+	left:0px;
+	height:300px;
+	margin-bottom:90px;
+	margin-left:70px;
+	
+	
+	
+}
+.carousel-control.right
+{
+	padding-right:20px;
+	height:170px;
+	margin-top:200px;
+	}
+html
+{
+	width:98.5%;
+}
+.carousel-control.left 
+{
+	padding-left:20px;
+	height:170px;
+	margin-top:200px;
+	
+	
+}

@@ -1,0 +1,181 @@
+body
+{
+	margin:0px;
+	padding:0px;
+}
+
+.navbar-default .navbar-nav>li>a 
+{
+	margin-left:6px;
+	padding-left:15px;
+	height:70px;
+	line-height:40px;
+	margin-top:0px;
+	
+color:#fff;	
+background:#27357E;
+font-family:calibri;
+font-size:16px;
+}
+#img
+{
+	background-image:logo1.jpg;
+
+}
+.navbar-nav
+{
+	margin-top:45px;
+	width:101.5%;
+	padding-left:10%;
+	margin-left:-1.5%;
+	background:#27357E;
+}
+.navbar-default .navbar-nav>li>a:hover
+{
+	
+	color:#dbdbdb;
+}
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle
+{
+	
+	background:#27357E;
+}
+.navbar-default .navbar-toggle .icon-bar 
+{
+	
+	background:#fff;
+}
+
+.navbar-default .navbar-toggle:focus, .navbar-default .navbar-toggle:hover
+{
+	background:#27357E;
+	border:1px solid black;
+	
+}
+.navbar-default .navbar-nav>.open>a, .navbar-default .navbar-nav>.open>a:focus, .navbar-default .navbar-nav>.open>a:hover
+{
+	background:#27357E;
+	color:#fff;
+}
+.carousel-caption
+{
+	width:450px;
+	left:0px;
+	height:300px;
+	margin-bottom:90px;
+	margin-left:70px;
+}
+.carousel-control.right
+{
+	
+	padding-left:20px;
+	height:100px;
+	margin-top:250px;
+	
+	}
+html
+{
+	width:100%;
+}
+.carousel-control.left 
+{
+
+	padding-left:20px;
+	height:100px;
+	margin-top:250px;	
+}
+.navbar-default .navbar-collapse, .navbar-default .navbar-form
+{
+width:101.4%;
+/* background:#27357E; */
+}
+.carousel-inner
+{
+	width:100%;
+
+}
+#box1
+{
+	position:relative;
+	height:200px;
+	width:380px;
+	margin-top:10px;
+	padding-left:4%;
+
+}
+#box1 img
+{
+	
+	posposition:absolute;
+	heighT:200px;
+	background
+}
+#box1 input
+{	
+	border:1px #27357E;
+	color:#fff;
+	background:#27357E;
+	margin-left:-72%;
+	width:100px;
+	border-radius:4px;
+	height:30px;
+	margin-top:15px;	
+}
+#box1 a
+{
+	text-align:left;
+	margin-left:-6px;
+	color:#27357E;
+	text-decoration:none;
+	display:block;
+	margin-top:-2%;	
+}
+hr
+{
+	border:0.1px solid #dbdbdb;
+}
+#sub_section
+{
+	
+	background:#414042;
+	/* widtH:100%; */
+	
+	heighT:38%;
+	border-bottom:4px solid #27357E;
+}
+#sub_section p
+{
+	color:#fff;
+}
+.fot
+{
+	
+
+
+}
+.fot ul
+{
+
+	/* float:left; */
+}
+.fot ul li
+{
+	
+	widtH:70px;
+	float:left;
+
+}
+.fot ul li a
+{
+	text-decoration:none;
+	color:#232323;
+}
+.fot ul li a:hover
+{
+	
+	color:#27357E;
+}
+.adress a
+{
+	text-decoration:none;
+}
