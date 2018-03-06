@@ -1,0 +1,332 @@
+<html>
+	<head>
+		<title>COOK AND FOOD</title>
+     
+     <!-- Insert to your webpage before the </head> -->
+    <script src="sliderengine/jquery.js"></script>
+    <script src="sliderengine/amazingslider.js"></script>
+    <link rel="stylesheet" type="text/css" href="sliderengine/amazingslider-1.css">
+    <script src="sliderengine/initslider-1.js"></script>
+    <!-- End of head section HTML codes -->
+   	<Style>
+		body
+		{
+		padding:0px;
+		margin:0px;
+		}
+		#slider
+		{
+		width:100%;
+		height:400px;
+		background-color:#f0ede1;
+		}
+		.container
+		{
+		max-width:1366px;
+		min-width:766px;
+		width:100%;
+		}
+		#header
+		{
+		background:black;
+		height:120px;
+		}
+		.logo
+		{
+		<!-- background:red; -->
+		height:90px;
+		font-size:25px;
+		width:120px;
+		color:red;
+		margin-top:20px;
+		padding-left:60px;
+		float:left;
+		background-repeat:no repeat;
+		}
+		.menu
+		{
+		<!-- background:gray; -->
+		height:100px;
+		width:100%;
+		}
+		.ul
+		{
+		margin:0px;
+		padding:0px;
+		}
+		.li
+		{
+		margin-left:30px;
+		padding-left:20px;
+		list-style:none;
+		}
+		#header a:link, a:visited
+		{
+		display:block;
+		background:#333;
+		float:left;
+		text-decoration:none;
+		height:57px;
+		color:white;
+		line-height:55px;
+		margin-top:40px;
+		padding:0 35px;
+		margin-left:2px;
+		text-align:left;
+		font-size:18px;
+		height:57px;
+		}
+		#header a:hover
+		{
+		background:red;
+		transition:all 2s;
+		}
+		#content
+		{
+		
+		height:200px;
+		background:white;
+		}
+		h2
+		{
+		color:red;
+		font-size:30px;
+		text-align:center;
+		}
+		p
+		{
+		color:red;
+		margin:0px;
+		font-size:20px;
+		text-align:center;
+		}
+		#btn
+		{
+		margin-top:22px;
+		}
+		#btn a
+		{
+		color:white;
+		text-decoration:none;
+		background:black;
+		margin-left:45%;
+		font-size:20px;
+		padding:15px;
+		
+	
+		}
+		#btn a:hover
+		{
+		transition:all 2s;
+		background:red;
+		}
+		#products
+		{
+		height:350px;
+		background:#f0ede1;
+		
+		<!-- background-repeat:no repeat; -->
+		}
+		.box
+		{
+		background:#FFF;
+		height:250px;
+		float:left;
+		width:300px;
+		margin-top:30px;
+		margin-left:20px;
+		background-repeat:no-repeat;
+		}
+		.line p
+		{
+		text-align:left;
+		margin-left:5px;
+		margin-top:60%;
+		<!-- background:gray -->
+		}
+		.button
+		{
+		margin-top:10px;
+		}
+		.button a
+		{
+		color:white;	
+		text-decoration:none;
+		margin-left:5px;
+		
+		 background:#333;
+		 height:60px;
+		 padding:4px 4px; 
+		
+		}
+		.button a:hover
+		{
+		background:red;
+		transition:all 2s;
+		}
+		.quotes
+		{
+		height:100px;
+		background:#fff;
+		padding-top:10px;
+		}
+		.quotes p
+		{
+		color:black;
+		}
+		#quotes2 p
+		{
+		font-family:arial;
+		color:red;
+		}
+		#product2
+		{
+		height:400px;
+		background-color:#f0ede1;	
+		}
+		.content2
+		{
+		height:340px;
+		width:280px;
+		float:left;
+		margin-left:20px;
+		background:#FFF;
+		margin-top:30px;
+		}
+		h3
+		{
+		text-align:center;
+		color:#000;
+		}
+		.inner
+		{
+		margin:0 auto;
+		width:960px;
+		}
+		#product2 a
+		{
+		color:red;
+		margin-left:15px;
+		margin-top:2px;
+		}
+		#product2 a:hover
+		{
+		color:black;
+		transition:all 2s;
+		}
+		
+		
+		</Style>
+		
+	</head>
+		<body>
+			<div class="container">
+			
+				<div id="header">
+					<div class="logo">
+						 COOK AND FOOD
+					</div>
+						<div class="menu">
+							<div class="ul">
+								<div class="li"><a href="#">Home</a><strong></strong></div>
+								<div class="li"><a href="#">About</a><strong></strong></div>
+								<div class="li"><a href="#">Products</a><strong></strong></div>
+								<div class="li"><a href="#">Recipes</a><strong></strong></div>
+								<div class="li"><a href="#">Carrer</a><strong></strong></div>
+								<div class="li"><a href="#">Contact</a><strong></strong></div>
+							</div>
+						</div>
+						
+				</div>
+				<div id="slider">
+				<!-- Insert to your webpage where you want to display the slider -->
+    <div id="amazingslider-wrapper-1" style="display:block;position:relative;max-width:900px;margin:0px auto 0px;">
+        <div id="amazingslider-1" style="display:block;position:relative;margin:0 auto;">
+            <ul class="amazingslider-slides" style="display:none;">
+                <li><img src="images/download%20%281%29.jpg" alt="download (1)"  title="download (1)" />
+                </li>
+                <li><img src="images/download.jpg" alt="download"  title="download" />
+                </li>
+                <li><img src="images/images.jpg" alt="images"  title="images" />
+                </li>
+            </ul>
+        <div class="amazingslider-engine"><a href="http://amazingslider.com" title="Responsive jQuery Slideshow">Responsive jQuery Slideshow</a></div>
+        </div>
+    </div>
+    <!-- End of body section HTML codes -->
+    
+				</div>
+
+			<div Id="content">
+				<h2>Quality is the only product value that lasts!</H2>
+				<p>TWI Foods Inc was established in 1997 as a specialty food company. Its initial market offering was a <br> range of high-quality cake-rusks, cookies, cakes & frozen food items aimed at the South-Asian <br>ethnic segment in Canada.</p>
+				<div id="btn">
+					<a href="#">Read more</a>
+				</div>
+			</div>
+    </div>
+    <!-- End of body section HTML codes -->
+   
+			<div id="products"> 
+			<div class="inner">
+				<div id="inner">
+					<div class="box" style="background-image:url(imag1.PNG);">
+					<div class="line"><p>Butterfly cokkies</p></div>
+					<div class="button"><a href="#">Read more</a></div>
+					</div> 
+					<div class="box" style="background-image:url(imag2.PNG);">
+					<div class="line"><p>Cake Rusk</p></div>
+					<div class="button"><a href="#">Read more</a></div>
+					</div>
+					<div class="box" style="background-image:url(imag3.PNG);">
+					<div class="line"><p>Pistachio cookies</p></div>
+					<div class="button"><a href="#">Read more</a></div>
+					</div> 
+				</div>
+				</div>
+			</div>
+				<div class="quotes">
+					<p>Nothing but the best ingredients and care goes into our production process to make us<br>
+							North America's Favorite Cookie!<br><br></p>
+								<div id="quotes2"><p >Ali Kizilbash</P></div>
+				</div>
+					<div id="product2">
+						<div class="inner">
+						<div class="content2">
+						<h3>CONTACT INFO</h3>
+						<img src="pics.PNG"/>
+						<p style="margin-top:5px; margin-left:5px; text-align:left; color:black; font-size:14px;">40 Shaft Rd, Etobicoke, Ontario<br> M9W4M2, Canada.</p>
+						<p style="margin-top:5px; text-align:left; color:black; font-size:14px;"><strong>PHONE:</strong>(1)866-9-CRISPY<br>
+						<font style="margin-left:26%;">(1-866-927-4779)</font></p>
+						<p  style="color:black; font-size:15px; text-align:left; "><strong>Email</strong>:nfo@crispyjustbaked.com</p>
+						<!-- <p  style="color:black; font-size:15px;"><strong>Email</strong>:nfo@crispyjustbaked.com</p> -->
+						</div>
+						<div class="content2">
+						<h3>HEALTHY NEW RECIPE</h3>
+						<img src="pics1.PNG" style="margin-left:-5px;"/>
+						<p style="margin-top:5px; text-align:left; color:black; font-size:12px;">CRISPY NAAN & 'NAVRATAN QURMA'<br> M9W4M2, Canada.</p>
+						<p style="margin-top:5px; text-align:center;  color:black; font-size:12px;">('NAVRATAN'-lit Nine Gems; 'Qorma'<br>-
+						Curry With rich sauce cream and often<br>
+						accompanies with dry fruits)</p>
+					<br>	<a href="#" style="text-decoration:none; ">Read more</a>
+						</div>
+						<div class="content2">
+						<h3>TASTIMONIALS</h3>
+						<P style="color:black; font-size:15px; ">Dear Crispy</P>
+						<P style="color:black; font-size:12px; margin-top:20px;">
+										I'm just writing to let you know how <br><br> 
+										much I like your produts When getting off <br><br>
+										from a hard days work , it's so nice to be<br><br>
+										able to go to local market and get some<br><br>
+										great naan. And the naan you make is <br><br>
+										the best.<br><BR>
+						</p>
+							<strong style="margin-left:35%;">Robert Rough</strong>	
+						<P style="color:black; font-size:13px;">Toronto, Ontario,<br>Canada</P>
+						</div>
+						</div>
+						
+					</div>
+			</div>
+		</body>
+</html>
