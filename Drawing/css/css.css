@@ -1,0 +1,124 @@
+@charset "utf-8";
+
+body
+	{
+	padding:0px;
+	margin:0px;
+	background-image:url(../images/header-bg.png);
+	background-repeat:no-repeat;
+	background-size:100% 110%;
+	background-attachment:fixed;
+	}
+	#main
+	{
+	height:100%;
+	width:100%
+	}
+	#header
+	{
+		height:150px;
+		width:100%;
+	}
+	#logo
+	{
+		height:131px;
+	    background-image:url(../images/logo1.jpg);
+	    background-repeat:no-repeat;
+	    float:left;
+	    width:20%;
+	    margin-left:50px;
+	    margin-top:50px;
+	}
+	#nav
+	{
+		height:80px;
+		width:70%;
+		margin-left:30%
+	}
+	#nav ul
+	{
+		height:100px;
+	    line-height:80px;
+	    margin-left:10px;
+	}
+	#nav ul li
+	{
+		padding-left:20px;
+		float:left;
+		list-style:none;
+		line-height:180px;
+	}
+	#nav ul li a
+	{   
+	    
+		text-decoration:none;
+		margin-left:20px;
+		font-family:"Arial Black", Gadget, sans-serif;
+		font-size:15px;
+		color:white;
+	}
+	#nav ul li a:hover
+	{
+		color:navy;
+		transition:all 2s;
+	}
+	#slider
+	{
+		margin-top:60px;
+	}
+	#simple
+	{
+		height:200px;
+	    background-color:#F93;
+	    width:80%;
+	    margin-left:10%;
+		margin-top:-8px;
+	}
+	#simple h4
+	{
+		color:#FFF;
+	    font-size:28px;
+	    font-family:"Lucida Console", Monaco, monospace;
+	    margin:0px;
+	    text-align:center;
+	    padding-top:50px;
+	}
+	#simple h4 span
+	{
+		color:#333;
+	    font-family:"Lucida Console", Monaco, monospace;
+	}
+	#simple p
+	{
+		color:#333;
+	    font-family:"Lucida Sans Unicode", "Lucida Grande", sans-serif;
+	    font-size:16px;
+	    text-align:center;
+	}
+	#button a
+	{
+		height:40px;
+	    width:70px;
+	    margin-left:30px;
+	    text-align:center;
+	    display:block;
+        text-decoration:none;	
+	    border:1px solid #FC3;
+	    line-height:40px;
+	    color:#FC0;
+	    font-family:"sans sarif", sans-serif, serif;
+	    margin-top:30px;
+		margin-left:480px;
+	}
+	#button a:hover
+	{
+		background-color:#FC0;
+	    transition:all 2s;
+	    color:#000;
+		text-decoration:none;
+	}
+	
+	#map
+	{
+		margin-top:-8px;
+	}
